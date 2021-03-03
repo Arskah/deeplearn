@@ -7,16 +7,28 @@
 
 ## Installation
 
-- Recommendation: run
+- Recommendation: install virtualenv inside project folder (`.venv` folder, so VSCode can recognise python executable) with
 
-```bash
-poetry config virtualenvs.in-project true
-```
+  ```bash
+  poetry config virtualenvs.in-project true
+  ```
 
-to install virtualenv inside project folder (under `.venv`)
+- Install dependencies
 
--
+  ```bash
+  poetry install
+  ```
 
-```bash
-poetry install
-```
+## Running
+
+- Start shell within venv with
+
+  ```bash
+  poetry shell
+  ```
+
+- Start notebook with
+
+  ```bash
+  jupyter notebook
+  ```
